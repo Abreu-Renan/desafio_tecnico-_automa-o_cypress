@@ -1,0 +1,19 @@
+{
+  "name": "desafio_tecnico-_automacao_cypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Renan Miranda",
+  "license": "ISC",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": false,
+    "step_definitions": "cypress/support/step-definitions"
+  },
+  "description": "Renan Abreu",
+  "devDependencies": {
+    "cypress": "^15.15.0",
+    "cypress-cucumber-preprocessor": "^4.3.1"
+  }
+}
