@@ -5,8 +5,12 @@ import NovoCadastro from "../pages/novoCadastro.page";
 
 
 When("o usuário preencher os campos nome e email", () => {
-    NovoCadastro.fazerCadastro();
+    NovoCadastro.preencherNomeEmail();
 
+});
+
+And('clicar no botão "signup-button"', () => {
+    NovoCadastro.clicarSignupButton();
 });
 
 And ('verificar se o cadastro foi realizado com sucesso', () => {
